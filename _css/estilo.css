@@ -1,0 +1,46 @@
+#acordeon {
+  font-size: 14px;
+  width: 200px;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+label,
+tr {
+  font-size: 14px;
+  font-family: arial;
+}
+button,
+input[type="button"] {
+  font-size: 20px;
+  font-family: arial;
+}
+table {
+  background-color: lightgray;
+}
+
+.temporizador-container {
+  font-family: arial;
+  height: 50vh;
+  padding: 20px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#datahoje {
+  background-color: white; 
+ text-align: center;
+ padding: 1rem;
+ font-size: 0.9rem;
+ border: 1px solid black;
+}
+
+p#tempo{
+ background-color: white; 
+ text-align: center;
+ padding: 1rem;
+ font-size: 1.3rem;
+ border: 1px solid black;
+}
